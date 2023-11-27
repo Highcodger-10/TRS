@@ -63,8 +63,9 @@ export const login = ({ username, password }) => async (dispatch) => {
         "X-CSRFToken": Cookies.get("csrftoken")
         },
     };
-
+    // console.log(username, password)
     const body  = JSON.stringify({ username, password });
+    console.log(body)
     try{
         const res = await axios.post(`${process.env.REACT_APP_API_URL}/accounts/login/`, body, config);
         if (res.data.success){

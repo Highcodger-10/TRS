@@ -34,6 +34,8 @@ const Profile = ({ loadUserProfile }) => {
             <Col xs={8}>
               <Card.Body>
                 <Card.Title>{`${first_name} ${last_name}`}</Card.Title>
+                {console.log(first_name)}
+                {console.log(last_name)}
                 <Card.Text>{email}</Card.Text>
               </Card.Body>
             </Col>

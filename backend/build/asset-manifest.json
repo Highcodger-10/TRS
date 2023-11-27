@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c84a279d.css",
-    "main.js": "/static/js/main.e13b7b16.js",
+    "main.css": "/static/css/main.b8cb2aa6.css",
+    "main.js": "/static/js/main.a3789774.js",
     "static/media/Shivapuri National Park.jpg": "/static/media/Shivapuri National Park.6d0ec03e9609ff6afbc0.jpg",
     "static/media/Narayanhiti Palace Museum.jpg": "/static/media/Narayanhiti Palace Museum.5fda99ea6dc88a329c9d.jpg",
     "static/media/Kathmandu Durbar Square.jpg": "/static/media/Kathmandu Durbar Square.6f1bff21df5e3ed83893.jpg",
@@ -59,11 +59,11 @@
     "static/media/Devghat.jpg": "/static/media/Devghat.74ef48aa03cb209de729.jpg",
     "static/media/Jalbire Waterfall.jpg": "/static/media/Jalbire Waterfall.4916b594ddc0ff095059.jpg",
     "index.html": "/index.html",
-    "main.c84a279d.css.map": "/static/css/main.c84a279d.css.map",
-    "main.e13b7b16.js.map": "/static/js/main.e13b7b16.js.map"
+    "main.b8cb2aa6.css.map": "/static/css/main.b8cb2aa6.css.map",
+    "main.a3789774.js.map": "/static/js/main.a3789774.js.map"
   },
   "entrypoints": [
-    "static/css/main.c84a279d.css",
-    "static/js/main.e13b7b16.js"
+    "static/css/main.b8cb2aa6.css",
+    "static/js/main.a3789774.js"
   ]
 }

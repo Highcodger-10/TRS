@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 import { connect } from "react-redux";
-// import { login } from actions/auth";
 import {login} from "../actions/auth";
 import { Link, Navigate } from "react-router-dom";
 import { Card, Form, Button } from "react-bootstrap";
-// import './Login.css';
-// import CSRFToken from '../../components/CSRFToken';
 import CSRFToken from '../components/CSRFToken';
 
 function Login({ login, isAuthenticated }) {
@@ -28,6 +25,7 @@ const onSubmit = (e) => {
       username,
       password,
     };
+    console.log(data)
     login(data);
     // setLoginFailed(true);
   };
